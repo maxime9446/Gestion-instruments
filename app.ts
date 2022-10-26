@@ -14,11 +14,11 @@ class Piano implements cleDeSol, cleDeFa {
     }
 
     function positionCleSol(){
-        console.log("Pour une guitare électrique, la clé de sol se joue à la main gauche");
+        console.log("Pour un piano, la clé de sol se joue à la main gauche");
     }
 
     function positionCleFa(){
-        console.log("Pour un piano numérique, la clé de fa se joue à la main gauche");
+        console.log("Pour un piano, la clé de fa se joue à la main gauche");
 
     }
 }
@@ -38,7 +38,7 @@ class Guitare implements cleDeSol {
     }
 
     function positionCleSol(){
-        console.log("Pour une guitare électrique, la clé de sol se joue à la main gauche");
+        console.log("Pour une guitare, la clé de sol se joue à la main gauche");
     }
 
 }
